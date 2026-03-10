@@ -30,5 +30,9 @@ int main(){
     //    status = "lolos";
     //else
         // status = "gagal";
-        rerata = Rata_rata()
+    rerata = Rata_rata(nilBI,nilMT);
+    //status = Status_lulus(renata);
+
+    cout << "Status kelulusan = "<<Status_lulus(rerata)<<" ,dengan nilai rerata = "<<rerata<<endl;
+    
 }
