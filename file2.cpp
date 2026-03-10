@@ -12,4 +12,23 @@ string Status_lulus(float r) {
         return "lolos dipertimbangkan";
     else if (r >= 40)
         return "lolos tetapi matrikulasi 1 tahun";
+    else
+        return "gagal";
+}
+
+int main(){
+    float nilBI,nilMT,rerata;
+    string status;
+
+    cout <<"masukkan nilai bahasa Inggris = ";
+    cin >> nilBI;
+    cout <<"masukkan nilai matematika = ";
+    cin >> nilMT;
+
+    //rerata = (nilBI+nilMT)/2;
+    //if (rerata >= 60)
+    //    status = "lolos";
+    //else
+        // status = "gagal";
+        rerata = Rata_rata()
 }
